@@ -1,0 +1,76 @@
+.body{
+  background: rgb(185, 185, 185)
+}
+
+.top-section{
+  width: 90%;
+  height: 30vh;
+  background: white;
+  margin: 5% 5% 5% 5%;
+  position: relative;
+}
+
+.top-section p{
+  padding:5%;
+  font-size: 18px;
+}
+
+.button-red{
+  background: red;
+  color: white;
+  width: 110px;
+  height: 40px;
+  font-family: sans-serif;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  padding-left: 35px;
+  padding-top: 10px;
+}
+
+.button-blue{
+  background: blue;
+  color: white;
+  width: 110px;
+  height: 40px;
+  font-family: sans-serif;
+  position: absolute;
+  bottom: 30px;
+  left: 165px;
+  padding-left: 35px;
+  padding-top: 10px;
+}
+
+.mid-section{
+  width: 90%;
+  height: 50vh;
+  background: white;
+  margin: 5% 5% 5% 5%;
+}
+
+.mid-section p{
+  padding:4%;
+  font-size: 18px;
+}
+
+.mid-section img {
+  background: rgb(66, 66, 66);
+  width: 90%;
+  height: 60%;
+  margin: 5% 5% 0 5%;
+}
+
+.bot-section{
+  width: 100%;
+  height: 8vh;
+  background: rgb(66, 66, 66);
+  display: flex;
+  justify-content: flex-end;
+  dis
+}
+
+.bot-section p{
+  color:white;
+  padding:30px;
+  margin-left: 9px;
+}
