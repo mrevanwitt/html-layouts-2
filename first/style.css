@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+h1, h2, h3, h4, h5, h6, p{
+  font-family: 'Lato', sans-serif;
+}
+
+.main-header{
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-box{
+  width: 30%;
+  height: 200px;
+}
+
+.top-box:nth-child(even){
+  background: gray;
+}
+
+.top-box:nth-child(odd){
+  background: black;
+}
+
+.content{
+  margin: auto;
+  width: 95%;
+  padding: 10px 0 10px 0;
+}
+
+.mid-container {
+  display: flex;
+  height: 400px;
+}
+
+.col-right {
+  background: red;
+  width: 33%;
+}
+
+.col-left{
+  background: blue;
+  width: 77%;
+}
+
+.bot-container{
+  height: 200px;
+  display: flex;
+  margin-top: 30px;
+}
+
+.bot-left{
+  background: blue;
+  width: 85%
+}
+
+.bot-mid{
+  background: red;
+  width: 5%;
+}
+
+.bot-right{
+  background: grey;
+  width: 10%;
+}
